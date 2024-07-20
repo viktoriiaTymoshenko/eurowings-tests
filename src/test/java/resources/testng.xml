@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlightStatusSuite">
+    <test name="FlightStatusTest">
+        <parameter name="departureAirport" value="BER" />
+        <parameter name="destinationAirport" value="CGN" />
+        <parameter name="searchDate" value="tomorrow" />
+        <classes>
+            <class name="com.tymoshenko.eurowings.test.CheckFlightsStatusTest"/>
+        </classes>
+    </test>
+</suite>
