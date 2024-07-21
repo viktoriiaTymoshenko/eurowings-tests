@@ -49,7 +49,7 @@ public class SearchFlightStatusPage {
         return this;
     }
 
-    @Step("Enter departure airport {departureAirport} and destination airports {destinationAirport}")
+    @Step("Enter departure airport {departureAirport}")
     public SearchFlightStatusPage selectDepartureAirport (String departureAirport) {
         departureAirportField.shouldBe(visible).click();
         enterDepartureAirport.shouldBe(visible).click();
