@@ -1,4 +1,4 @@
-package com.tymoshenko.eurowings.test.util;
+package com.tymoshenko.eurowings.at.util;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

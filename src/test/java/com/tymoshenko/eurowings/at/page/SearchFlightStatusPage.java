@@ -1,8 +1,8 @@
-package com.tymoshenko.eurowings.test.page;
+package com.tymoshenko.eurowings.at.page;
 
 
 import com.codeborne.selenide.SelenideElement;
-import com.tymoshenko.eurowings.test.util.DateUtils;
+import com.tymoshenko.eurowings.at.util.DateUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.TimeoutException;
 

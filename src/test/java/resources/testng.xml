@@ -6,7 +6,7 @@
         <parameter name="destinationAirport" value="CGN" />
         <parameter name="searchDate" value="tomorrow" />
         <classes>
-            <class name="com.tymoshenko.eurowings.test.CheckFlightsStatusTest"/>
+            <class name="com.tymoshenko.eurowings.at.test.CheckFlightsStatusTest"/>
         </classes>
     </test>
 </suite>
